@@ -1,0 +1,31 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h1, h2, .skills-list{
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+img {   
+    max-width: 100%;
+}
+
+@media screen and (min-width: 300px){
+}
+
+
+@media screen and (min-width: 730px){ 
+    .container {
+        display: flex;
+        flex-direction: row;
+    }  
+
+}
