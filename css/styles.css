@@ -163,7 +163,7 @@ footer p {
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 450px){
     nav {
         font-size: small;
     }
